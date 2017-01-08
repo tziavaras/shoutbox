@@ -1,5 +1,4 @@
-<?
-if($_POST['Submit']){
+<?if($_POST['Submit']){
 $open = fopen("textfile.txt","w+");
 $text = $_POST['update'];
 fwrite($open, $text);
